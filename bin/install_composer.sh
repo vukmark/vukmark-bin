@@ -21,4 +21,5 @@ RESULT=$?
 rm composer-setup.php
 rm installer.sig
 
+sudo chown -R "$USER" "$HOME/.composer/"
 exit $RESULT
