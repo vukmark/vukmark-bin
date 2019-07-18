@@ -32,6 +32,6 @@ if [ -d "$HOME/vukmark-bin/bin" ] ; then
 fi
 
 # set PATH so it includes composer bin if it exists
-if [ -d "$HOME/.composer/bin" ] ; then
+if [ -d "$HOME/.composer/vendor/bin" ] ; then
     PATH="$HOME/.composer/vendor/bin:$PATH"
 fi
