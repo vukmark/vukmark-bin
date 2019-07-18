@@ -5,7 +5,7 @@
 # Install packages
 sudo apt install -y apache2 apache2-utils
 sudo apt install -y mariadb-server mariadb-client
-sudo apt install -y php7.2 libapache2-mod-php7.2 php7.2-mysql php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline php7.2-mbstring
+sudo apt install -y php7.2 libapache2-mod-php7.2 php7.2-mysql php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline php7.2-mbstring php7.2-xml
 
 
 # Run if for some reason is not started automatically
