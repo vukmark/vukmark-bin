@@ -30,3 +30,8 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.composer/vendor/bin:$PATH"
 fi
+
+# set PATH so it includes composer bin if it exists
+if [ -d "$HOME/.composer/bin" ] ; then
+    PATH="$HOME/.composer/vendor/bin:$PATH"
+fi
