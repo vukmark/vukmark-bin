@@ -26,9 +26,9 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-# set PATH so it includes composer bin if it exists
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.composer/vendor/bin:$PATH"
+# set PATH so it includes vukmark-bin bin if it exists
+if [ -d "$HOME/vukmark-bin/bin" ] ; then
+    PATH="$HOME/vukmark-bin/bin:$PATH"
 fi
 
 # set PATH so it includes composer bin if it exists
