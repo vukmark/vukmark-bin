@@ -10,4 +10,7 @@ composer global require joomla/coding-standards "~2.0@alpha"
 # Make sure we are added composer bin to PATH
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
+# Make sure current user is owner of .composer directory
+sudo chown -R "$USER" "$HOME/.composer"
+
 phpcs --config-set installed_paths "$HOME/.composer/vendor/joomla/coding-standards"
